@@ -1,3 +1,11 @@
+.hero-image{
+    background-image: url('../images/hero3.png');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .cursive{
     font-family: 'Galada', cursive;
     font-size: 28px;
@@ -11,5 +19,24 @@
     overflow: auto;
     height: 80vh;
     -ms-overflow-style: none;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.nav{
+    text-align: center;
+}
+.navbar-nav .nav-item{
+    float: inherit;
+    display: inline-block;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.upper{
+    padding-top: 50px;
 }
 .pic::-webkit-scrollbar{width: 0 !important}
