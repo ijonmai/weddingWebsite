@@ -5,3 +5,11 @@
 .regText{
     font-family: 'Slabo 27px', serif;
 }
+.pic{
+    margin: 0;
+    padding: 2px;
+    overflow: auto;
+    height: 80vh;
+    -ms-overflow-style: none;
+}
+.pic::-webkit-scrollbar{width: 0 !important}
