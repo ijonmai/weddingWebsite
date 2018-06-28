@@ -1,3 +1,6 @@
+html{
+    overflow-x: hidden;
+}
 .hero-image{
     background-image: url('../images/hero3.png');
     height: 80vh;
@@ -38,5 +41,32 @@
 }
 .upper{
     padding-top: 50px;
+}
+
+.missing{
+    padding: 50px;
+    background-color: gray;
+}
+.time{
+    font-size: 30px;
+    background-color: white;
+}
+.days, .hours, .min, .sec{
+    padding: 50px;
+}
+.days{
+    background-color: rgb(255, 192, 203);
+}
+.hours{
+    background-color: rgba(255, 192, 203, 0.884);
+}
+.min{
+    background-color: rgb(255, 192, 203, 0.7);
+}
+.sec{
+    background-color: rgb(255, 192, 203, 0.5);
+}
+.aboutUs{
+    margin-top: 30px;
 }
 .pic::-webkit-scrollbar{width: 0 !important}
