@@ -1,88 +1,29 @@
-html{
-    overflow-x: hidden;
-}
-.hero-image{
-    background-image: url('../images/hero3.jpg');
-    height: 80vh;
-    background-position: center;
+.banner{
+    background-image: url('../images/hero5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    height: 100vh;
 }
-.pic{
-    margin: 0;
-    padding: 2px;
-    overflow: auto;
-    height: 80vh;
-    -ms-overflow-style: none;
+.fullWidth{
+    color: black;
+    width:100%;
+    margin-left:0;
+    margin-right:0;
+    padding-left:0;
+    padding-right:0;
+    display:block;
+    text-align:center; /*This will result in centering the link text, which is probably what you want -brianjohnsondesign.com*/
 }
-.navbar{
-    background-color: rgba(0, 0, 0, 0.3) !important;
-}
-.nav{
-    text-align: center;
-}
-.navbar-nav .nav-item{
-    float: inherit;
-    display: inline-block;
-}
-.layer{
-    background-color: rgba(0, 0, 0, 0.3) !important;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-.upper{
-    padding-top: 50px;
-}
-
-.missing{
-    background-color: gray;
-}
-.time{
-    font-size: 30px;
+.ourNav{
+    border-radius: 10px;
     background-color: white;
 }
-.missing, .days, .hours, .min, .sec{
-    padding: 30px;
+.shiftUp{
+    margin-top: -20px;
 }
-.days{
-    background-color: rgb(255, 192, 203);
-}
-.hours{
-    background-color: rgba(255, 192, 203, 0.884);
-}
-.min{
-    background-color: rgb(255, 192, 203, 0.7);
-}
-.sec{
-    background-color: rgb(255, 192, 203, 0.5);
-}
-.aboutUs{
-    margin-top: 30px;
-}
-.pic::-webkit-scrollbar{width: 0 !important}
-
-@media(max-width: 993px){
-    .missing{
-        display: none;
-    }
-}
-@media(max-width: 765px){
-    .min{
-        display: inline-block;
-    }
-}
-@media(max-width: 575px){
-    .desktop{
-        display: hidden !important;
-    }
-}
-
 .Caveat{
     font-family: 'Caveat', cursive;
 }
-
 .Dancing{
     font-family: 'Dancing Script', cursive;
 }
