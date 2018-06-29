@@ -2,7 +2,7 @@ html{
     overflow-x: hidden;
 }
 .hero-image{
-    background-image: url('../images/hero3.png');
+    background-image: url('../images/hero3.jpg');
     height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,15 +44,14 @@ html{
 }
 
 .missing{
-    padding: 50px;
     background-color: gray;
 }
 .time{
     font-size: 30px;
     background-color: white;
 }
-.days, .hours, .min, .sec{
-    padding: 50px;
+.missing, .days, .hours, .min, .sec{
+    padding: 30px;
 }
 .days{
     background-color: rgb(255, 192, 203);
