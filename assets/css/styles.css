@@ -1,8 +1,11 @@
 .banner{
-    background-image: url('../images/hero5.jpg');
+    background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
+}
+.banner > .container > div {
+    vertical-align: middle;
 }
 .fullWidth{
     color: black;
@@ -21,57 +24,17 @@
 .shiftUp{
     margin-top: -20px;
 }
-.Caveat{
-    font-family: 'Caveat', cursive;
-}
-.Dancing{
-    font-family: 'Dancing Script', cursive;
-}
-.Fredericka{
-    font-family: 'Fredericka the Great', cursive;
-}
-.Gochi{
-    font-family: 'Gochi Hand', cursive;
+.Sacramento{
+    font-family: 'Sacramento', cursive;
 }
 .Homemade{
     font-family: 'Homemade Apple', cursive;
 }
-.Lobster{
-    font-family: 'Lobster', cursive;
-}
-.Marcellus{
-    font-family: 'Marcellus SC', serif;
-}
-.Oranienbaum{
-    font-family: 'Oranienbaum', serif;
-}
-.Pacifico{
-    font-family: 'Pacifico', cursive;
-}
-.Permanent{
-    font-family: 'Permanent Marker', cursive;
-}
-.Sacramento{
-    font-family: 'Sacramento', cursive;
-}
-.Playfair{
-    font-family: 'Playfair Display', serif;
-}
-.Great{
-    font-family: 'Great Vibes', cursive;
-}
-.Cookie{
-    font-family: 'Cookie', cursive;
-}
-.PlayfairSC{
-    font-family: 'Playfair Display SC', serif;
-}
-.Alice{
-    font-family: 'Alice', serif;
-}
-.Reenie{
-    font-family: 'Reenie Beanie', cursive;
-}
-.Berkshire{
-    font-family: 'Berkshire Swash', cursive;
-}
+
+/*
+font-family: 'Sacramento', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Lily Script One', cursive;
+font-family: 'Oleo Script Swash Caps', cursive;
+*/
