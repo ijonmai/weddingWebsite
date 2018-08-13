@@ -2,7 +2,7 @@
     background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
 }
 .banner > .container > div {
     vertical-align: middle;
