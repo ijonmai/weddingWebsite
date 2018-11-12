@@ -1,11 +1,19 @@
-.banner{
+body, html {
+    height: 100%;
+}
+.banner {
     background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    background-position: center;
+    height: 90vh;
 }
 .banner > .container > div {
     vertical-align: middle;
+}
+.title {
+    /* padding-top: 25vh; */
+    color: white;
 }
 .fullWidth{
     color: black;
@@ -22,14 +30,44 @@
     background-color: white;
 }
 .shiftUp{
-    margin-top: -20px;
+    margin-top: -25px;
 }
-.Sacramento{
-    font-family: 'Sacramento', cursive;
+@media only screen and (max-width: 525px) {
+    .banner {
+        background-image: url('../images/heromobile.jpg');
+    }
 }
-.Homemade{
-    font-family: 'Homemade Apple', cursive;
+@media only screen and (max-width: 375px) {
+    .ourNav {
+        font-size: 10px;
+    }
+    .hoverable {
+        display: inline-block;
+    }
+    .fullWidth {
+        white-space: nowrap;
+    }
 }
+.Oleo{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.Megrim{
+    font-family: 'Megrim', cursive;
+}
+.Monsieur{
+    font-weight: 300;
+    font-family: 'Monsieur La Doulaise', cursive;
+}
+.Sarina{
+    font-family: 'Sarina', cursive;
+}
+.Permanent{
+    font-family: 'Permanent Marker', cursive;
+}
+.Slabo{
+    font-family: 'Slabo 27px', serif;
+}
+
 
 /*
 font-family: 'Sacramento', cursive;
