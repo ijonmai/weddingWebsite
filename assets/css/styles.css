@@ -8,6 +8,11 @@ body, html {
     background-position: center;
     height: 90vh;
 }
+.hero-text{
+    padding-top: 25%;
+    font-size: 56px;
+    text-shadow: 2px 2px black;
+}
 .banner > .container > div {
     vertical-align: middle;
 }
@@ -27,7 +32,7 @@ body, html {
 }
 .ourNav{
     border-radius: 10px;
-    background-color: white;
+    background-color: white;  
 }
 .shiftUp{
     margin-top: -25px;
@@ -69,10 +74,31 @@ body, html {
 }
 
 
-/*
-font-family: 'Sacramento', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Lily Script One', cursive;
-font-family: 'Oleo Script Swash Caps', cursive;
-*/
+@media only screen and (max-width: 417px){
+    .ourNav {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 394px){
+    .ourNav {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 371px){
+    .ourNav {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 348px){
+    .ourNav {
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 324px){
+    .ourNav {
+        font-size: 8px;
+    }
+}
