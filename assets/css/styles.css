@@ -11,6 +11,15 @@ h2 {
     background-position: center;
     height: 90vh;
 }
+
+.banner.ourStory {
+    background-image: url('../images/ourstory.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
 .hero-text{
     padding-top: 25%;
     font-size: 56px;
