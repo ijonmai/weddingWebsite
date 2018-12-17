@@ -1,6 +1,9 @@
 body, html {
     height: 100%;
 }
+h2 {
+    margin-top: 0;
+}
 .banner {
     background-image: url('../images/hero.jpg');
     background-repeat: no-repeat;
@@ -17,7 +20,7 @@ body, html {
     vertical-align: middle;
 }
 .title {
-    /* padding-top: 25vh; */
+    padding-top: 25vh;
     color: white;
 }
 .fullWidth{
@@ -37,11 +40,11 @@ body, html {
 .shiftUp{
     margin-top: -25px;
 }
-@media only screen and (max-width: 525px) {
-    .banner {
-        background-image: url('../images/heromobile.jpg');
-    }
+.hoverable > a.active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
 }
+
 @media only screen and (max-width: 375px) {
     .ourNav {
         font-size: 10px;
@@ -73,6 +76,11 @@ body, html {
     font-family: 'Slabo 27px', serif;
 }
 
+@media only screen and (max-width: 440px){
+    .ourNav {
+        font-size: 13px;
+    }
+}
 
 @media only screen and (max-width: 417px){
     .ourNav {
