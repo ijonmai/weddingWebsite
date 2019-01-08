@@ -60,6 +60,12 @@ h2 {
     padding-top: 10%;
     width: 70%;
 }
+#test {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -2;
+}
 .dslr {
     z-index: -1;
     position: absolute;
