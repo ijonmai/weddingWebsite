@@ -53,7 +53,20 @@ h2 {
     font-weight: bold;
     border-bottom: 1px solid black;
 }
-
+.dslr-camera {
+    position: relative;
+}
+.camera {
+    padding-top: 10%;
+    width: 70%;
+}
+.dslr {
+    z-index: -1;
+    position: absolute;
+    left: 21%;
+    bottom: 15%;
+    width: 35%;
+}
 @media only screen and (max-width: 375px) {
     .ourNav {
         font-size: 10px;
